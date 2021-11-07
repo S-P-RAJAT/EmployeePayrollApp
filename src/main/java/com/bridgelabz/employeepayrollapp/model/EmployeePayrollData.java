@@ -37,6 +37,11 @@ public @Data class EmployeePayrollData {
 	@Column(name = "department")
 	private List<String> departments;
 	
+	public EmployeePayrollData()
+    {
+
+    }
+	
 	public EmployeePayrollData(int empId,EmployeePayrollDTO employeePayrollDTO)
 	{
 		this.employeeId=empId;
